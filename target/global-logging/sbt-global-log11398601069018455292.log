@@ -1,0 +1,123 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 11.0.2)
+[debug]       Load.loadUnit: plugins took 164.054573ms
+[debug]       Load.loadUnit: defsScala took 0.557679ms
+[debug] [Loading] Scanning directory /Users/big0ne/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/big0ne/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.142507 ms
+[debug]           Load.resolveProject(global-plugins) took 99.321866ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/big0ne/.sbt/1.0/plugins, plugins: List(<none>))) took 198.520852ms
+[debug] [Loading] Done in /Users/big0ne/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 239.156973ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.432731ms
+[debug]     Load.loadUnit(file:/Users/big0ne/.sbt/1.0/plugins/, ...) took 419.555748ms
+[debug]   Load.apply: load took 1036.860699ms
+[debug]   Load.apply: resolveProjects took 12.74434ms
+[debug]   Load.apply: finalTransforms took 93.232009ms
+[debug]   Load.apply: config.delegates took 8.60488ms
+[debug]   Load.apply: Def.make(settings)... took 514.46114ms
+[debug]   Load.apply: structureIndex took 179.333246ms
+[debug]   Load.apply: mkStreams took 2.624474ms
+[info] loading global plugins from /Users/big0ne/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4154.193259ms
+[debug]           Load.loadUnit: plugins took 16.89317ms
+[debug]           Load.loadUnit: defsScala took 0.004106ms
+[debug] [Loading] Scanning directory /Users/big0ne/Downloads/ZaliczenieESI/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/big0ne/Downloads/ZaliczenieESI/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.825953 ms
+[debug]               Load.resolveProject(zaliczenieesi-build) took 1.266421ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zaliczenieesi-build, base: /Users/big0ne/Downloads/ZaliczenieESI/project, plugins: List(<none>))) took 4.729157ms
+[debug] [Loading] Done in /Users/big0ne/Downloads/ZaliczenieESI/project, returning: (zaliczenieesi-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 6.680241ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.012163ms
+[debug]         Load.loadUnit(file:/Users/big0ne/Downloads/ZaliczenieESI/project/, ...) took 24.358098ms
+[debug]       Load.apply: load took 25.920726ms
+[debug]       Load.apply: resolveProjects took 0.178522ms
+[debug]       Load.apply: finalTransforms took 11.805493ms
+[debug]       Load.apply: config.delegates took 0.472254ms
+[debug]       Load.apply: Def.make(settings)... took 121.877856ms
+[debug]       Load.apply: structureIndex took 40.100993ms
+[debug]       Load.apply: mkStreams took 0.003559ms
+[info] loading project definition from /Users/big0ne/Downloads/ZaliczenieESI/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 451.271408ms
+[debug]     Load.loadUnit: defsScala took 0.006958ms
+[debug] [Loading] Scanning directory /Users/big0ne/Downloads/ZaliczenieESI
+[debug]       Load.loadUnit: mkEval took 11.046907ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/big0ne/Downloads/ZaliczenieESI, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.038745 ms
+[info] loading settings for project zaliczenieesi from build.sbt ...
+[debug]         Load.resolveProject(zaliczenieesi) took 2.909391ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zaliczenieesi, base: /Users/big0ne/Downloads/ZaliczenieESI, plugins: List(<none>))) took 5.60846ms
+[debug] [Loading] Done in /Users/big0ne/Downloads/ZaliczenieESI, returning: (zaliczenieesi)
+[debug]     Load.loadUnit: loadedProjectsRaw took 159.21419ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.906233ms
+[debug]   Load.loadUnit(file:/Users/big0ne/Downloads/ZaliczenieESI/, ...) took 617.371243ms
+[debug] Load.apply: load took 618.783389ms
+[debug] Load.apply: resolveProjects took 0.104376ms
+[debug] Load.apply: finalTransforms took 13.802683ms
+[debug] Load.apply: config.delegates took 0.603066ms
+[debug] Load.apply: Def.make(settings)... took 132.553111ms
+[debug] Load.apply: structureIndex took 42.046418ms
+[debug] Load.apply: mkStreams took 0.002636ms
+[info] set current project to ZaliczenieESI (in build file:/Users/big0ne/Downloads/ZaliczenieESI/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/big0ne/.sbt/1.0/server/f70857d07052a0beea49/sock
+[debug] Writing bsp connection file
+[info] started sbt server
