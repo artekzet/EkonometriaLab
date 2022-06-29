@@ -205,7 +205,7 @@ model = tf.keras.Sequential([
 
 Podsumowanie modelu:
 
-`
+
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 [[163.217  13.663]]
 Model: "sequential"
@@ -218,9 +218,10 @@ Model: "sequential"
 Total params: 5
 Trainable params: 2
 Non-trainable params: 3
-`
 
-Następnie uzyjemy regresji liniowej:
+
+##Następnie uzyjemy regresji liniowej:
+
 `
 model.compile(
     optimizer=tf.keras.optimizers.Adam(learning_rate=0.1),
